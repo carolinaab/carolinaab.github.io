@@ -19,11 +19,32 @@
    background: rgb(66, 75, 67, 0.7);
    padding: 1em;
    color:white;
-   font-size: 40px;
+   font-size:3px;
    text-align: center;
+   width: 100%;
 
 }
-/* .informacion-texto{
-width: 100
-   background: yellow;
-} */
+
+/* estilos acerca de mi */
+
+.acerca-de-mi{
+    background: red;
+    height: 100vh;
+}
+
+
+/* estilos acerca de mi */
+.proyectos{
+    background: blueviolet;
+    height: 100vh;
+}
+
+.habilidades{
+    background: rgb(112, 6, 116);
+    height: 80vh;
+}
+
+.contacto{
+    background: rgb(156, 60, 60);
+    height: 100vh;
+}
