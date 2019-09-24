@@ -6,7 +6,7 @@
 .informacion {
     background-image:url(../fondo4.jpg); 
     background-size: cover;
-    background-position: center left;
+    background-position: center auto;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -24,6 +24,7 @@
    width: 100%;
 
 }
+
 
 /* estilos acerca de mi */
 
