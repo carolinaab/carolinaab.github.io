@@ -4,9 +4,9 @@
 }
 
 .informacion {
-    background-image:url(../img/web-design-2038872_1280.jpg); 
+    background-image:url(../fondo4.jpg); 
     background-size: cover;
-    background-position: center right;
+    background-position: center left;
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
@@ -28,7 +28,7 @@
 /* estilos acerca de mi */
 
 .acerca-de-mi{
-    background: red;
+    background: #3F3937;
     height: 100vh;
 }
 
