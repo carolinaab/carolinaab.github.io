@@ -39,7 +39,7 @@ body {
     }
  
 .informacion {
-    background-image:url(../fondo3.jpg);
+    background-image:url(../img/fondo3.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -189,6 +189,71 @@ h6{
         width: 100%;
         height: 100vh;
         padding-top:15%;
+      
      }
+     .habilidades-front{
+        height: 3.5rem;
+        display: flex;
+        justify-content: right;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 3rem;
+    
+       
+    }
+     .habilidades-front img{
+        width: 90px;
+        height: 90px;
+      
+    }
+    .css {
+        width: 70px !important;
+        height: 90px !important;
+    }
+    
+    .habilidades-backend{
+        height: 3.5rem;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 4rem;
+       
+    }
+    .habilidades-backend img {
+        width: 150px;
+        height: 100px; 
+        margin-left: 1em;
+        
+    }
+    .habilidades-gestion {
+        height: 3.5rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+       margin-top: 3rem;
+    }
+    .habilidades-gestion img{
+        width: 150px;
+        height: 150px; 
+        margin-left: 1rem;
+    }
+    .habilidades-base {
+        height: 5rem;
+        display: flex;
+        justify-content:right;
+        flex-direction: row;
+        align-items: center;
+        padding: 1.5rem;
+    }
+    .habilidades-base img{
+        width: 150px;
+        height: 150px; 
+        margin-left: 1.5em;
+    }
+    h6{
+        text-align: center;
+    }
+    
 
     }
