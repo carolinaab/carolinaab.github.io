@@ -170,17 +170,54 @@ h6{
 }
 /* estilos acerca de mi */
 .proyectos{
-    background: blueviolet;
-    height: 100vh;
-}
-
-
-
-.contacto{
+    height: auto;
+    padding-left: 3.5rem;
+    padding-top: 3rem;
    
-    height: 20vh;;
-
 }
+.cipher{
+    width: 80%;
+    border: 1px solid black;
+   
+}
+
+
+/* estilos contacto */
+.contacto{
+   height: auto;
+   background: rgba(119, 29, 29, 0.8);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+}
+
+.contacto h2{
+    font-size: 25px;
+}
+
+.contenido-contacto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-size: 20px;
+}
+
+.github{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px; 
+}
+
+.github figure img{
+  width: 150px;
+  height: 80px;
+}
+
 
 @media (min-width: 767px) {
     .informacion-texto{
@@ -265,6 +302,7 @@ h6{
   .contenido-contacto{
       display: flex;
       width: 30%;
+      flex-direction: row;
       justify-content: center;
       align-items: center;
       padding: 1rem;
