@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <!-- navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
@@ -52,12 +53,12 @@
 
     <!-- información  -->
 
-    <section class="informacion" id="informacion">
+    <div class="informacion" id="informacion">
         <div class="informacion-texto">
-            <h2>Carolina Méndez </h2>
+            <h1>Carolina Méndez </h1>
             <h3>Front-End Developer</h3>
         </div>
-    </section>
+    </div>
 
     <!-- Acerca de mi -->
     <section class="acerca-de-mi" id="acerca-de-mi">
@@ -125,12 +126,20 @@
     <!-- Proyectos -->
     <section class="proyectos" id="proyectos">
         <h2>Mis proyectos</h2>
-        <figure>
-            <a href="https://carolinaab.github.io/MEX-008-Cipher/src/"><img src="../img/cipher.png" alt=""
-                    class="cipher"></a>
-        </figure>
-        <a href="https://github.com/carolinaab/MEX-008-Cipher">Código</a>
-        <a href="https://carolinaab.github.io/MEX-008-Cipher/src/">Página</a>
+        <p style="font-size: 16px">(click en la imagen)</p>
+        <div class="contenido-proyectos">
+            <figure>
+                <a href="https://github.com/carolinaab/MEX-008-Cipher">Código Cipher</a>
+                <a href="https://carolinaab.github.io/MEX-008-Cipher/src/"><img src="../img/cipher.png" alt=""
+                        class="img-proyectos"></a>
+            </figure>
+
+            <figure>
+                <a href="https://github.com/carolinaab/MEX008-labcar/tree/master/src">Código Labcar</a>
+                <a href="file:///home/carolinamendez/Documentos/MEX008-labcar/src/index.html#"><img
+                        src="../img/labcar.jpg" alt="labcar" class="img-proyectos"></a>
+            </figure>
+        </div>
 
     </section>
 
@@ -162,6 +171,7 @@
             </a>
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
