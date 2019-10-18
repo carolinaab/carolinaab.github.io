@@ -1,6 +1,6 @@
 {
-  "name": "portafolio-v1",
-  "version": "1.0.0",
+  "name": "portafolio",
+  "version": "1.4.0",
   "description": "",
   "main": "index.js",
   "scripts": {
