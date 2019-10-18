@@ -14,11 +14,20 @@ body {
   /*---navbar---*/
 .navbar {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: bold;
+    letter-spacing: 1px;
     font-size: .9rem;
-    background: rgba(119, 29, 29, 0.8)!important;
+    background: rgba(204, 94, 94, 0.8)!important;
   }
   
+  .navbar-brand{
+    background: rgba(18, 180, 99, 0.4);
+    width: 3.5rem;
+    height: 3rem;
+    text-align: center;
+    border-radius: 100%;
+    
+  }
 .navbar-toggler{
       color: white !important;
   }
@@ -41,8 +50,6 @@ body {
 .informacion img{
     height: 100vh;
     width: 100%;
-   
-   
 }
 
 
@@ -162,8 +169,10 @@ body {
     width: 15rem;
     height: 10rem;
     border: 1px solid black;
+    border-radius: 15px;
+    
   
-}
+} 
 
 
 /* estilos contacto */
