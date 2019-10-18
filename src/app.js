@@ -1,17 +1,20 @@
 // cambio de imagenes 
 
-// let arrayImagenes = ["../img/fondo3.jpg", "../img/cipher.png"];
+let arrayImagenes = ["../img/fondo1.jpg",
+    "../img/fondo2.jpg",
+    "../img/fondo4.jpg",
+    "../img/fondo5.jpg"];
 
-// const cambiarImagenes = () => {
-//     let index = Math.floor((Math.random() * arrayImagenes.length));
+const cambiarImagenes = () => {
+    let index = Math.floor((Math.random() * arrayImagenes.length));
 
-//     document.getElementById("imagen").src = arrayImagenes[index];
-// }
+    document.getElementById("imagen").src = arrayImagenes[index];
+}
 
-// onload = () => {
-//     cambiarImagenes();
-//     setInterval(cambiarImagenes, 5000);
-// }
+onload = () => {
+    cambiarImagenes();
+    setInterval(cambiarImagenes, 4000);
+}
 
 $(document).on('click', '.navbar-collapse', function (e) {
     if ($(e.target).is('a')) {
