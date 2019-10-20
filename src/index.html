@@ -7,12 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/litera/bootstrap.min.css">
     <link rel="stylesheet"
         href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Tangerine:400,700&display=swap" rel="stylesheet">
 </head>
 
 <body data-spy="scroll" data-target="#navbarColor02">
@@ -20,7 +21,7 @@
     <!-- navbar -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <a class="navbar-brand" href="#" style="color: rgb(70, 31, 31)"><strong>CM</strong></a>
+            <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
                 aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class=" navbar-toggler-icon"></span>
@@ -29,7 +30,7 @@
             <div class="collapse navbar-collapse " id="navbarColor02">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#informacion">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#inicio">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#acerca-de-mi">Acerca de mi</a>
@@ -52,8 +53,8 @@
 
     <!-- información  -->
 
-    <section class="informacion" id="informacion">
-        <img src="../img/fondo2.jpg" id="imagen"></a>
+    <section class="inicio" id="inicio">
+        <img src="../img/magnolia.jpg" id="imagen"></a>
 
         </div>
     </section>
@@ -61,7 +62,7 @@
     <!-- Acerca de mi -->
     <section class="acerca-de-mi" id="acerca-de-mi">
         <div class="contenido-acerca-de-mi">
-            <!-- <img src="../img/pf_1569429975.jpg"> -->
+            <img src="../img/pf_1569429975.jpg" width="200" height="200" style="border-radius: 100%;">
             <br>
             <h4>Acerca de mi</h4>
             <p>Soy Carolina Méndez.
@@ -77,117 +78,84 @@
 
 
 
-    <div id="habilidades" class="habilidades">
-        <div class="col-12 text-center">
-            <h3 class="heading">Habilidades</h3>
-            <div class="heading-underline"></div>
-        </div>
-        <div class="row padding">
-            <div class="col-md-6">
-                <div class="card text-center" style="width: 200;" nter" V>
+    <section id="habilidades" class="habilidades">
 
-                    <div class="card-body">
-
-                        <div class="jumbotron container-fluid">
-                            <h4>HABILIDADES TÉCNICAS</h4>
-                            <br>
-                            <div class="col-16 text-center">
-                                <div class="colum no-padding">
-                                    <i class="devicon-react-original-wordmark colored fa-2x"></i>
-                                    <i class="devicon-css3-plain-wordmark colored fa-2x"></i>
-                                    <i class="devicon-html5-plain-wordmark colored fa-2x"></i>
-                                    <br>
-                                    <p>BACKEND</p>
-                                    <i class="fab fa-npm fa-2x" style="color: rgb(206, 22, 22);"></i>
-                                    <i class="fab fa-node fa-2x" style="color: rgb(48, 170, 37);"></i>
-                                    <p>GESTIÓN DE PROYECTOS</p>
-                                    <i class="fab fa-git-alt fa-2x" style="color: orangered;"></i>
-                                    <i class="fab fa-git fa-2x"></i>
-                                    <p>BASE DE DATOS</p>
-                                    <img src="https://miro.medium.com/max/1024/1*HaAps8GidfAKdee7OrjZ2w.png"
-                                        alt="firebase" width="80" height="80">
-                                    <small>Firebase</small>
-
-
-
-
-
-
-
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="col-md-6">
-                <div class="card text-center" style="width: 200;">
-
-                    <div class="card-body">
-
-                        <div class="jumbotron container-fluid">
-                            <h4>SOFT SKILLS</h4>
-                            <br>
-                            <div class="col-16 text-center">
-                                <div class="colum no-padding">
-
-                                    <h4 class="card-text">Habilidades blandas</h4>
-                                    <hr>
-                                    <i class="fas fa-users-cog fa-2x" style="color:rgb(139, 149, 149)"></i>
-                                    <p>Trabajo en equipo</p>
-                                    <i class="fas fa-brain fa-2x" style="color:rgb(67, 108, 133)"></i>
-                                    <p>Growth Mindset</p>
-                                    <i class="fas fa-book-reader fa-2x"></i>
-                                    <p>Autoaprendizaje</p>
-
-
-
-
-
-                                </div>
-                            </div>
-                        </div>
-
-
-                    </div>
-
-                </div>
-            </div>
-
-
-
-
+        <div class="habilidades-contenido">
+            <h5>HABILIDADES TÉCNICAS</h5>
+            <br>
+            <p>FRONT-END</p>
+            <i class="devicon-javascript-plain colored fa-3x"></i>
+            <i class="devicon-react-original-wordmark colored fa-3x"></i>
+            <i class="devicon-css3-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-html5-plain-wordmark colored fa-3x"></i>
+            <br>
+            <p>BACKEND</p>
+            <i class="fab fa-npm fa-3x" style="color: rgb(206, 22, 22);"></i>
+            <i class="fab fa-node fa-3x" style="color: rgb(48, 170, 37);"></i>
+            <p>GESTIÓN DE PROYECTOS</p>
+            <i class="fab fa-git-alt fa-2x" style="color: orangered;"></i>
+            <i class="fab fa-git fa-2x"></i>
+            <p>BASE DE DATOS</p>
+            <img src="https://miro.medium.com/max/1024/1*HaAps8GidfAKdee7OrjZ2w.png" alt="firebase" width="80"
+                height="80">
+            <small>Firebase</small>
 
         </div>
 
-    </div>
+        <div class="habilidades-contenido">
+            <h5>SOFT SKILLS</h5>
+            <br>
+            <i class="fas fa-users-cog fa-2x" style="color:rgb(139, 149, 149)"></i>
+            <p>Trabajo en equipo</p>
+            <i class="fas fa-brain fa-2x" style="color:rgb(67, 108, 133)"></i>
+            <p>Growth Mindset</p>
+            <i class="fas fa-book-reader fa-2x"></i>
+            <p>Autoaprendizaje</p>
 
+        </div>
 
-
-
+    </section>
 
 
     <!-- Proyectos -->
     <section class="proyectos" id="proyectos">
-        <h3>Mis proyectos</h3>
-        <p style="font-size: 16px">(click en la imagen)</p>
-        <div class="contenido-proyectos">
+        <div class="card">
+            <div class="card-image">
+                <a href="https://carolinaab.github.io/MEX-008-Cipher/src/">
+                    <figure class="image is-100x100">
+                        <img src="../img/cipher.png" alt="cipher">
+                </a>
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    Primer proyecto hecho de manera individual,
+                    en el cual comprendí el manejo del DOM y la importancia de las funciones puras.
+                    <br>
+                    <a href="https://github.com/carolinaab/MEX-008-Cipher">Github Cifrado para niños</a>
 
-            <a href="https://github.com/carolinaab/MEX-008-Cipher">Código Cipher</a>
-            <figure>
-                <a href="https://carolinaab.github.io/MEX-008-Cipher/src/"><img src="../img/cipher.png" alt="cipher"
-                        class="img-proyectos"></a>
-            </figure>
+                </div>
+            </div>
+        </div>
 
-            <a href="https://github.com/carolinaab/MEX008-labcar/tree/master/src">Código Labcar</a>
-            <figure>
-                <a href="https://carolinaab.github.io/MEX008-labcar/src/"><img src="../img/labcar.jpg" alt="labcar"
-                        class="img-proyectos"></a>
-            </figure>
+
+        <div class="card">
+            <div class="card-image">
+                <a href="https://carolinaab.github.io/MEX008-labcar/src/">
+                    <figure class="image is-100x100">
+                        <img src="../img/labcar.jpg" alt="cipher">
+                </a>
+                </figure>
+            </div>
+            <div class="card-content">
+                <div class="content">
+                    En este proyecto mi principal objetivo fue la práctica de maquetación,
+                    entender flexbox y las páginas responsive
+                    <br>
+                    <a href="https://github.com/carolinaab/MEX008-labcar">Github Labcar</a>
+
+                </div>
+            </div>
         </div>
 
     </section>
@@ -195,29 +163,22 @@
     <!-- Contacto -->
 
     <footer class="contacto" id="contacto">
-        <h2>Contáctame</h2>
+
         <div class="contenido-contacto">
+            <h4>Contáctame</h4>
             <a
                 href="https://mx.linkedin.com/in/carolina-mendez-nu%C3%B1ez?trk=public_profile_samename_profile_profile-result-card_result-card_full-click">
-                <figure>
-                    <img src="../img/LinkedIn_UI-02-512.png" alt="linkedin" width="100" height="90"
-                        style="pointer-events:visiblePainted">
-                </figure>
+                <i class="fab fa-linkedin-in fa-2x" style="color: white;"></i>
             </a>
-
-            <figure>
-                <img src="../img/arroba.png" alt="email" width="40" height="40" style="margin-right:0.5rem">
-            </figure>
-
-            <p>tau_karo@hotmail.com.com</p>
-        </div>
-        <div class="github">
+            <small>Carolina Mendez Nuñez</small>
+            <i class="far fa-envelope fa-2x"></i>
+            <small>tau_karo@hotmail.com</small>
+            <br>
             <p>Sígueme en:</p>
             <a href="https://github.com/carolinaab">
-                <figure>
-                    <img src="../img/github.png" alt="github" width="200" height="100" style="pointer-events: visible">
-                </figure>
+                <i class="fab fa-github fa-3x" style="color: white"></i>
             </a>
+            <small>carolinaab</small>
         </div>
     </footer>
 
@@ -231,7 +192,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
     <script src="../src/app.js"></script>
-    <script src="../src/index.js"></script>
 
 </body>
 
