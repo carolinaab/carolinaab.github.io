@@ -40,11 +40,29 @@ body p{
 }
   
  
-.inicio img{
+.inicio{
+    background-image: url(../img/fondo3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
 }
-
+.texto-inicio{
+  background-color: rgba(90, 48, 48, 0.5);
+  padding-top: 10rem;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  height: 100%;
+  width: 100%;
+ }
+ .texto-inicio h6{
+   font-size: 50px;
+   
+ }
 
 
 /* estilos acerca de mi */
