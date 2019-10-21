@@ -23,10 +23,6 @@ body p{
     font-size: .9rem;
 }
   
-
-.navbar-toggler{
-      color: white !important;
-}
   
 
 .navbar-nav li {
@@ -62,6 +58,11 @@ body p{
     display: flex;
     color:black;
    
+}
+.contenido-acerca-de-mi img{
+ width: 150px;
+ height: 150px;
+ border-radius: 100%;
 }
 .contenido-acerca-de-mi{
     justify-content:center;
@@ -140,14 +141,12 @@ body p{
 
 
 @media (min-width: 767px) {
-  
-    .informacion-texto{
-        justify-content: center;
-        text-align: center;
-        padding-top:15%;
-        height: 100vh;
-        width: 100%;
-    }
+  /* acerca de mi */
+  .contenido-acerca-de-mi img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+   }
     /* proyectos movil */
    .proyectos{
     height:auto;
