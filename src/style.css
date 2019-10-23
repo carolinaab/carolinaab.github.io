@@ -112,12 +112,7 @@ body p{
   color: white;
    }
 
-   /* .proyectos{
-    height:auto;
-    display: block;
-    padding-top: 4rem;
-   }
-    */
+ 
     .proyectos {
       height:auto;
       display: block;
@@ -137,6 +132,9 @@ body p{
    .card-image{
    width: 100%;
 
+   }
+   .card-image img{
+    box-shadow: 0 0 15px rgb(105, 97, 97)
    }
 
 
