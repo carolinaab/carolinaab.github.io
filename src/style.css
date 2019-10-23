@@ -112,22 +112,30 @@ body p{
   color: white;
    }
 
-   .proyectos{
+   /* .proyectos{
     height:auto;
     display: block;
     padding-top: 4rem;
    }
-   
-   .card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1rem;
-   
-   }
+    */
+    .proyectos {
+      height:auto;
+      display: block;
+      padding-top: 4.5rem;
+    }
+  
+ 
+    .card {
+      width: 100%;
+      height: fit-content;
+      margin-bottom: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
 
    .card-image{
-   width: 90%;
+   width: 100%;
 
    }
 
@@ -165,26 +173,40 @@ body p{
     height: 200px;
     border-radius: 100%;
    }
-    /* proyectos movil */
-   .proyectos{
-    height:auto;
-    display: flex;
-    padding-right: 3rem;
-    padding-top: 5rem;
+     /* proyectos movil */
+   .proyectos {
+     height: auto;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
    }
+  
+   .proyectos div .car{
+    padding-left: 2em;
+    padding-top: 1em;
+    width: 50%;
+    height: 4vh;
+    margin-bottom: 3%;
+    
+ 
+   }
+
+
+   .card {
    
-   .card{
+    background-color: transparent;
+    width: 45%;
+    height: 70%;
+    perspective: 1000px;
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 1rem;
-   
-   }
+}
 
-   .card-image{
-   width: 90%;
+ 
 
-   }
+ 
  /* habilidades movil */
    .habilidades{
     justify-content: center;
