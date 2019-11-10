@@ -68,19 +68,17 @@ body p{
 /* estilos acerca de mi */
 
 .acerca-de-mi{
-  
     justify-content: center;
     align-items: center;
     letter-spacing: 1px;
     height: 100vh;
     display: flex;
-    color:black;
+    flex-direction: column;
    
 }
 .contenido-acerca-de-mi img{
- width: 150px;
- height: 150px;
- border-radius: 100%;
+ display: none;
+ 
 }
 .contenido-acerca-de-mi{
     justify-content:center;
@@ -89,9 +87,18 @@ body p{
     font-size: 20px;
     margin-top: 1em;
     display: flex;
-    padding: 2rem;
 
+    
   
+}
+.acerca-de-mi-texto{
+padding: 2rem;
+width: 100%;
+
+
+}
+.acerca-de-mi-texto h4{
+  text-align: center;
 }
 /* habilidades */
 .habilidades{
@@ -166,11 +173,23 @@ body p{
 
 @media (min-width: 767px) {
   /* acerca de mi */
+  .acerca-de-mi{
+    display: flex;
+    flex-direction: row;
+  }
   .contenido-acerca-de-mi img{
     width: 200px;
-    height: 200px;
+    height:200px;
     border-radius: 100%;
+    display: block;
+    
    }
+   .acerca-de-mi-texto{
+     width: 50%;
+     height: fit-content;
+    font-size: 20px;
+   }
+
      /* proyectos movil */
    .proyectos {
      height: auto;
@@ -231,6 +250,9 @@ body p{
     height: auto;
  }
  
+ .image-fitclub{
+   width: inherit;
+ }
   
 
 
