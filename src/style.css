@@ -134,15 +134,15 @@ width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+      box-shadow: 0 0 15px rgb(105, 97, 97) !important;
+
   }
 
    .card-image{
    width: 100%;
 
    }
-   .card-image img{
-    box-shadow: 0 0 15px rgb(105, 97, 97)
-   }
+  
 
 
 /* estilos contacto */
@@ -156,7 +156,12 @@ width: 100%;
    height: auto;
 }
 
-
+.contenido-contacto p{
+padding-bottom: 1rem;
+}
+.contenido-contacto i {
+  padding-top: 1rem;
+}
 
 .contenido-contacto{
   justify-content: center;
@@ -190,7 +195,7 @@ width: 100%;
     font-size: 20px;
    }
 
-     /* proyectos movil */
+   
    .proyectos {
      height: auto;
      display: flex;
@@ -224,7 +229,7 @@ width: 100%;
  
 
  
- /* habilidades movil */
+
    .habilidades{
     justify-content: center;
     align-items: center;
@@ -239,15 +244,22 @@ width: 100%;
     height: 70vh;
    }
    
- /* contacto movil */
    .contacto{
     background: #37393b;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    display: flex;
-    height: auto;
+    
+ }
+ .contenido-contacto{
+
+   display: flex;
+   flex-direction: row;
+ 
+ }
+ .contenido-contacto i {
+   padding-left: 4rem;
+ }
+ .contenido-contacto p{
+   padding-left: 1rem;
+   padding-top: 2rem;
  }
  
  .image-fitclub{
